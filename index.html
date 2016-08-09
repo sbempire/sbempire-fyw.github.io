@@ -1,23 +1,99 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BootStrap_v1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/boot1css.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container text-center">
+	  <h1><mark>My First Bootstrap Page</mark></h1>
+	  <p>Marshawn Lynch</p> 
+	  <nav>
+	  	<p><a href="http://localhost.myvidster/bootstrap_v1.html">1</a><a href="http://localhost.myvidster/bootstrap_v1_p2.html">2</a><a href="http://localhost.myvidster/bootstrap_v1_p3.html">3</a></p>
+	  </nav>
+	</div>
 
-<div class="home">
+	<div class="row" >
+		<div class="col-sm-1">
+		</div>
+		<div class="col-sm-3">col3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p> Eaque excepturi fuga quaerat iste fugiat earum quibusdam dolor quam esse rem eius blanditiis, sapiente, fugit minus eum debitis quasi ipsa architecto.</div>
+		<div class="col-sm-6">col9 Lorem ipsum dolor sit amet, consectetur adipisicing elit. <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p> <pre>Text in a pre element
+			is displayed in a fixed-width
+			font, and it preserves
+			both      spaces and
+			line breaks. Check out more here <a href="http://www.w3schools.com/bootstrap/bootstrap_typography.asp">Dub3</a>
 
-  <h1 class="page-heading">Posts</h1>
+			</pre>
+		</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	</div>
+	<div class="row">
+		<div class="container text-center">
+			<h2><abbr title="Marshawn Lynch">ML</abbr></h2>
+			<h1>Just playing around <small>But seriously put the team on his back</small></h1>
+		</div>
+	</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	<div class="container">
+	  <h1>Blockquotes</h1>
+	  <p>The blockquote element is used to present content from another source:</p>
+	  <blockquote>
+	    <p>The NFL’s head of officiating told ESPN’s Sal Paolantonio at Pro Bowl practice Saturday that the Seattle Seahawks have been warned that if running back Marshawn Lynch makes an obscene gesture after scoring a touchdown or at any other time during Super Bowl XLIX, the team will be penalized 15 yards for unsportsmanlike conduct.</p>
+	    <footer><a href="#">From PutDaTeamOnDaBack.com</a></footer>
+	  </blockquote>
+	</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<div class="container">
+	  <h1>Reverse Blockquotes</h1>
+	  <p>The blockquote element is used to present content from another source:</p>
+	  <blockquote class="blockquote-reverse">
+	    <p>The NFL’s head of officiating told ESPN’s Sal Paolantonio at Pro Bowl practice Saturday that the Seattle Seahawks have been warned that if running back Marshawn Lynch makes an obscene gesture after scoring a touchdown or at any other time during Super Bowl XLIX, the team will be penalized 15 yards for unsportsmanlike conduct.</p>
+	    <footer><a href="#">From PutDaTeamOnDaBack.com</a></footer>
+	  </blockquote>
+	</div>
 
+	<div class="container">
+  <h1>Description Lists</h1>    
+  <p>The dl element indicates a description list:</p>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dd>- Ya mamma</dd>
+    <dd>- Dirty Daiana</dd>
+    
+    <dt>DT = Theme of list</dt>
+    <dd>- white cold drink</dd>
+    <dd>dd = description of item</dd>
+    <li>list item in a designated list</li>
+  </dl>     
 </div>
+
+<div class="container">
+  <h2>Contextual Colors</h2>
+  <p>Use the contextual classes to provide "meaning through colors":</p>
+  <p class="text-muted">This text is muted.</p>
+  <p class="text-primary">This text is important.</p>
+  <p class="text-success">This text indicates success.</p>
+  <p class="text-info">This text represents some information.</p>
+  <p class="text-warning">This text represents a warning.</p>
+  <p class="text-danger">This text represents danger.</p>
+
+   <h2>Contextual Backgrounds</h2>
+  <p>Use the contextual background classes to provide "meaning through colors":</p>
+  <p class="bg-primary">This text is important.</p>
+  <p class="bg-success">This text indicates success.</p>
+  <p class="bg-info">This text represents some information.</p>
+  <p class="bg-warning">This text represents a warning.</p>
+  <p class="bg-danger">This text represents danger.</p>
+</div>
+
+
+	
+	
+</body>
+</html>
