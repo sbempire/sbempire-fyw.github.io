@@ -8,5 +8,7 @@ var difference = Math.floor((enddate.getTime() - today.getTime()) / 1000);
 
 var seconds = GlobalFunctn(difference % 60);
 
+
 difference = Math.floor(difference / 60);
-}
+
+});
